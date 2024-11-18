@@ -1,0 +1,65 @@
+
+*{
+margin:0; padding:0;
+box-sizing: border-box;
+font-family: Verdana;
+outline: none; border:none;
+text-decoration:none;
+transition: .2s linear;
+}
+section{
+padding:14rem;
+}
+.btn{
+display: inline-block;
+margin-top:1rem;
+border-radius:2.5rem;
+background:#333;
+color:#fff;
+padding: .6rem 1rem;
+font-size: 1.5rem;
+}
+.btn:hover{
+color:pink;
+}
+header{
+position: fixed;
+top:0; left:0; right:0;
+background:#fff;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 1000;
+box-shadow: 5px 5px 2.5px #D3D3D3;
+}
+header .logo{
+font-size: 2rem;
+color:#333;
+font-weight: bolder;
+margin-left:2rem;
+}
+header .logo span{
+color:pink;
+}
+header .navbar a{
+font-size: 1rem;
+padding: 0.5rem;
+color:#666;
+}
+header .navbar a:hover{
+color:pink;
+}
+header .icons a{
+font-size:1rem;
+color:#333;
+margin-left: .5rem;
+}
+header .icons a:hover{
+color:pink;
+}
+.home {
+display:flex;
+align-items:center;
+background-image: url('background.jpg')"
+}
+
